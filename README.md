@@ -11,14 +11,20 @@ using pytest.
 ## Project Structure
 
 flask-contracts-lab/
-flask-contracts-lab/server/
-flask-contracts-lab/server/app.py
-flask-contracts-lab/server/testing/
-flask-contracts-lab/server/testing/app_test.py
-flask-contracts-lab/server/testing/conftest.py
-flask-contracts-lab/pytest.ini
-flask-contracts-lab/README.md
 
+flask-contracts-lab/server/
+
+flask-contracts-lab/server/app.py
+
+flask-contracts-lab/server/testing/
+
+flask-contracts-lab/server/testing/app_test.py
+
+flask-contracts-lab/server/testing/conftest.py
+
+flask-contracts-lab/pytest.ini
+
+flask-contracts-lab/README.md
 
 - server/app.py contains the Flask application and route logic
 - server/testing/app_test.py holds automated tests for each route
